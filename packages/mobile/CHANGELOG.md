@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 
 <!-- template-start -->
 
+## 8.21.4 (11/18/2025 PST)
+
+#### 🐞 Fixes
+
+- Fix RemoteImageGroup trailing space and zIndex problem. [[#170](https://github.com/coinbase/cds/pull/170)] [DX-5046]
+
 ## 8.21.3 (11/17/2025 PST)
 
 #### 🐞 Fixes
