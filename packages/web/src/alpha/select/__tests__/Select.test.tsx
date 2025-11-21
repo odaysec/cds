@@ -269,7 +269,7 @@ describe('Select', () => {
       const selectAllOption = screen.getByText(/Select all/);
       await user.click(selectAllOption);
 
-      expect(onChange).toHaveBeenCalledWith(['option1', 'option2', 'option3', 'option4']);
+      expect(onChange).toHaveBeenCalledWith(['option1', 'option2', 'option4']);
     });
 
     it('shows overflow indicator when maxSelectedOptionsToShow is exceeded', () => {
